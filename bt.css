@@ -1,0 +1,87 @@
+* {
+    color:white;
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+body { 
+    background-color:#000; 
+    zoom:300% 
+}
+
+#main {
+    width:272px;
+    height:208px;
+    left:32;
+    top:0;
+    overflow:hidden;
+    z-index:20;
+}
+
+#main * {
+    position:absolute;
+    z-index:20;
+}
+
+#stoepsel {
+    position:absolute;
+    background:url(stoepsel.gif) no-repeat;
+    background-position:0 0;
+    left:160px;
+    top:176px;
+    width:24px;
+    height:27px;
+}
+
+#spider {
+    left:158px;
+    top:7px;
+}
+
+#web {
+    left:172px;
+    top:33px;
+    width:1px;
+    height:50px;
+    background-color:white;
+}
+
+#waterbar {
+    background-color:#004671;
+}
+
+.chars {
+    background-image:url(chars.gif);
+}
+
+#stream {
+    width:6px;
+    height:120px;
+    background-image:url(water.gif);
+    top:76px;
+    left:48px;
+    z-index:19;
+    display:none;
+}
+
+.mirror {
+    display:block; 
+    -moz-transform: matrix(-1, 0, 0, 1, 0, 0);
+    -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+    -o-transform:matrix(-1, 0, 0, 1, 0, 0);
+}
+
+
+.txt {
+    position:absolute;
+    top:0;
+    background-image:url(chars.gif);
+    z-index:6;
+    width:16px;
+    height:11px;
+}
+
+.grey {
+    color:#606060;
+}
